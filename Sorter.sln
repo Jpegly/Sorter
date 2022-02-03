@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SorterTests", "SorterTests\SorterTests.csproj", "{71D63884-F499-4CFB-B80F-87F964413181}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D92F98A-B2DE-43B6-8615-169027683954} = {2D92F98A-B2DE-43B6-8615-169027683954}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorter", "WindowsFormsApp1\Sorter.csproj", "{2D92F98A-B2DE-43B6-8615-169027683954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D63884-F499-4CFB-B80F-87F964413181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D63884-F499-4CFB-B80F-87F964413181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D63884-F499-4CFB-B80F-87F964413181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D63884-F499-4CFB-B80F-87F964413181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D92F98A-B2DE-43B6-8615-169027683954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D92F98A-B2DE-43B6-8615-169027683954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D92F98A-B2DE-43B6-8615-169027683954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D92F98A-B2DE-43B6-8615-169027683954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE6D6F7-2B90-4FD3-834E-FE45359B283F}
+	EndGlobalSection
+EndGlobal
